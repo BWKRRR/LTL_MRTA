@@ -19,6 +19,8 @@ import os
 from mrta.util import create_parser, print_red_on_cyan
 import numpy as np 
 
+os.environ["PATH"] += os.pathsep + '/Users/jw/bin'
+
 # Define the path for the 'data' folder
 data_folder_path = './data'
 
